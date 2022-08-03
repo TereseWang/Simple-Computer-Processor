@@ -1,17 +1,17 @@
 # Simple-Computer-Processor
 ### Testing in Hardware
-- Implementing the Design with Vivado Synthesizer
+##### Implementing the Design with Vivado Synthesizer
 Click on Generate Bitstream under the Program and Debug section in the Flow Nav-
 igator pane to run the synthesis process. Vivado IDE will run the Synthesis and
 Implementation processes automatically.
 If the synthesis process runs correctly, continue by programming the FPGA board. Follow the same
 steps you have for previous labs.
-- Programming the FPGA with Hardware Manager
+##### Programming the FPGA with Hardware Manager
 Program your hardware the way you have in previous labs. Open the hardware man-
 ager, open the target device, and program the Zynq.
 Now you should see the hw_vio_1 window open. Click on the + sign and add all of the probes by
 selecting and adding them. Now you are ready to test your design in hardware.
-- Testing Your Design
+##### Testing Your Design
 This experiment uses the same buttons as in experiment 6. There is one reset, named rst general
 in Verilog, to reset the PC, register file, and instruction memory output port. On the board, it
 is connected to the right push button (BTN0). The upper push button (BTN1) allows you to single
